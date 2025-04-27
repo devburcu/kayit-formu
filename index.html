@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kayıt Formu</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 id="title">Survey Form For CSS Practice</h1>
+        <p id="description">Please fill out this short survey to help us improve our CSS skills.</p><br>
+        <div class="form-box">
+            <form id="survey-form">
+                <!-- Full Name -->
+                <label id="name-label" for="name" class="title">
+                    <i class="fa-solid fa-user"></i>Full Name</label>
+                <input type="text" name="text" id="name" class="box" placeholder="e.g. John Doe" required>
+                <br><br><br>
+                <!-- Email -->
+                <label id="email-label" for="email" class="title">
+                    <i class="fa-solid fa-envelope"></i>Mail</label>
+                <input type="email" name="email" id="email" class="box" placeholder="name@example.com" required>
+                <br><br><br>
+                <!-- Age -->
+                <label id="number-label" for="number" class="title">
+                    <i class="fa-solid fa-cake-candles"></i>Age</label>
+                <input type="number" name="number" id="number" class="box" min="18" max="100" placeholder="18" required>
+                <br><br>
+                <!-- Gender -->
+                <label for="dropdown"></label><br>
+                <select name="dropdown" id="dopdown" class="dropdown" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br><br><br>
+                <!-- Input Radio -->
+                <p>Where did you here us?</p><br>
+                <label>
+                    <input type="radio" name="link" value="instagram">Instagram
+                </label><br><br>
+                <label>
+                    <input type="radio" name="link" value="linkedin">LinkedIn
+                </label><br><br><br>
+                <!-- Checkbox -->
+                <label class="checkbox">
+                    <input type="checkbox" name="checbox" value="terms">Terms Of Service
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="checbox" value="subs">Subscribe For News
+                </label><br><br>
+                <!-- Textarea -->
+                <label for="message"></label>
+                <textarea name="message" id="message" rows="4" cols="50" class="message" placeholder="Suggestions"
+                    required></textarea><br><br>
+                <!-- Submit -->
+                <input type="submit" id="submit" value="Sign Up" class="submit"><br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

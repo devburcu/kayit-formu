@@ -1,0 +1,102 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+:root{
+    --bacground-color: #34475e	;
+    --green-color:#51ada9;
+    --text-color:#c2cedf;
+}
+.main-container{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #a34460;
+    border-radius: 10px;
+    padding: 10px;
+}
+#title, #description{
+    color: var(--text-color);
+    text-align: center;
+}
+.form-box{
+    padding: 30px;
+    width: 375px;
+    margin: 0 auto;
+    background-color: var(--bacground-color);
+    border-radius: 10px;
+}
+#survey-form{
+    color: var(--text-color);
+    position: relative;
+}
+.box{
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--text-color);
+    background-color: var(--bacground-color);
+    border: 1px solid var(--green-color);
+    outline: none;
+}
+.title{
+    position: absolute;
+    width: 100px;
+    line-height: 1.3;
+    font-weight: 800;
+    background-color: var(--bacground-color);    
+    padding: 0 5px;
+    top: -10px;
+    left: 45px;
+    text-align: center;
+    border-right: 1px solid var(--green-color);
+    border-left: 1px solid var(--green-color);
+}
+#email-label{
+    width: 70px;
+    top: 87px;
+    left: 45px;
+}
+#number-label{
+    width: 60px;
+    top: 182px;
+    left: 45px;
+}
+.fa-solid{
+    padding-right: 8px;
+}
+.dropdown{
+    display: inline-block;
+    width: 335px;
+    height: 50px;
+    font-size: 30px;
+    padding: 0px 40px;
+    border: none;
+    outline: none;
+    color: var(--green-color);
+    background-color: var(--bacground-color);
+    border-bottom: 1px solid var(--green-color);
+}
+.checkbox{
+    display: inline-block;
+    width: 144px;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+.message{
+    resize: none;
+    color: var(--text-color);
+    background-color: var(--bacground-color);
+    border: 1px solid var(--green-color);
+    padding: 5px;
+    outline: none;
+}
+.submit{
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 360px;
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--bacground-color);
+    color: var(--text-color);
+}
