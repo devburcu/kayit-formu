@@ -12,6 +12,11 @@ Bu proje basit bir HTML kayıt formudur.
 - Mesaj yazmak için bir textarea bulunur.
 - Formu göndermek için submit butonu vardır. 
 
+## Ekran Görüntüsü
+
+![Kayıt Formu Screenshot](./screenshot.png)
+
 ## Kullanımı
 
 Formu tarayıcıda açarak test edebilirsiniz.
+
